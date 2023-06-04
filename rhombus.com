@@ -1,23 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<!-- saved from url=(0040)file:///C:/Users/Aj273/Desktop/test.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body><doctype html="">
+  <section id="home">
+    <h2>Home</h2>
+    <img src="home-image.jpg" alt="Home Image">
+    <!-- Content for the home section -->
+  </section>
 
+  <section id="about">
+    <h2>About</h2>
+    <img src="about-image.jpg" alt="About Image">
+    <!-- Content for the about section -->
+  </section>
 
-<p>what's your favorite color?</p>
-<input type="color">
+  <section id="services">
+    <h2>Services</h2>
+    <img src="services-image.jpg" alt="Services Image">
+    <!-- Content for the services section -->
+  </section>
 
+  <section id="contact">
+    <h2>Contact</h2>
+    <img src="contact-image.jpg" alt="Contact Image">
+    <!-- Content for the contact section -->
+  </section>
 
-<input placeholder="state">
-<br>
-<input placeholder="NAME">
-<input placeholder="FATHER NAME">
-<h4>Log In</h4>
-<input placeholder="Email">
-<br>
-<input placeholder="Password" type="password">
-<h1 style="color: pink;">MY WEBPAGE
-</h1>
+  <footer>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+  </footer>
 
+  <script src="script.js"></script>
+</body>
+</html>
 
-
-</doctype></body></html>
